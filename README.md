@@ -23,13 +23,7 @@ The system manages the departure and arrival of planes at different airports, wi
 - GCC compiler
 
 ### Installation
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/your-username/air-traffic-control-system.git
-    cd air-traffic-control-system
-    ```
-
-2. Compile the programs:
+Compile the programs:
     ```sh
     gcc -o plane plane.c -lpthread
     gcc -o airport airport.c -lpthread
